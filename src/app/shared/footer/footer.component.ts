@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+    base_url = window.location.origin + '#/';
 
-  ngOnInit() {
+    constructor() { }
+
+    ngOnInit() {
   }
 
 }
