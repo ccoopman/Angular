@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+// RUTAS
+import { APP_ROUTES } from './app.routes';
+
 import { AppComponent } from './app.component';
 
 import { LoginComponent } from './login/login.component';
@@ -22,11 +24,11 @@ import { FooterComponent } from './shared/footer/footer.component';
     BreadcrumbsComponent,
     HeaderComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
