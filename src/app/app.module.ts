@@ -13,6 +13,8 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
 import { HeaderComponent } from './shared/header/header.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { PagesComponent } from './pages/pages.component';
+import { ProgressComponent } from './pages/progress/progress.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
+    PagesComponent,
+    ProgressComponent,
   ],
   imports: [
     BrowserModule,
