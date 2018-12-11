@@ -15,6 +15,9 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PagesComponent } from './pages/pages.component';
 import { ProgressComponent } from './pages/progress/progress.component';
+import { RegisterComponent } from './login/register.component';
+import { Login2Component } from './login/login2.component';
+import { Register2Component } from './login/register2.component';
 
 
 @NgModule({
@@ -29,6 +32,9 @@ import { ProgressComponent } from './pages/progress/progress.component';
     FooterComponent,
     PagesComponent,
     ProgressComponent,
+    RegisterComponent,
+    Login2Component,
+    Register2Component,
   ],
   imports: [
     BrowserModule,
